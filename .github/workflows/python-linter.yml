@@ -22,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install flake8  # Install Flake8
+          pip install pre-commit  # Install pre-commit
 
-      - name: Run Flake8
-        run: flake8 .  # Run Flake8 on the current directory
+      - name: Run Pre-commit
+        run: pre-commit run --all-files  # Run pre-commit checks
