@@ -1,5 +1,5 @@
 # repSoftTestClass
-This repository is for the Software Testing Class 2024. 
+This repository is for the Software Testing Class 2024.
 
 
 # Specification
