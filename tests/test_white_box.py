@@ -7,7 +7,7 @@ import unittest
 
 from src.white_box import is_even, divide, get_grade, is_triangle, validate_login
 from src.white_box import celsius_to_fahrenheit, validate_url, calculate_shipping_cost
-from src.white_box import VendingMachine, TrafficLight
+from src.white_box import VendingMachine, TrafficLight, UserAuthentication
 from src.white_box import DocumentEditingSystem, ElevatorSystem
 from src.white_box import BankAccount, BankingSystem, Product, ShoppingCart
 
@@ -208,7 +208,7 @@ class TestTrafficLight(unittest.TestCase):
 class TestUserAuthentication(unittest.TestCase):
     # Sets up the UserAuthentication instance.
     def setUp(self):
-        self.auth = TestUserAuthentication()
+        self.auth = UserAuthentication()
 
     # Tests that the initial state is 'Logged Out'
     def test_initial_state(self):
